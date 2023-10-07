@@ -34,8 +34,8 @@ public class Produit {
     }
 
     public void setPrix(float prix) {
-       if(p>0)
-            prix=p;
+       if(prix>0)
+            prix=prix;
         else System.out.println("le prix doit être positif");
         this.prix = prix;
     }
